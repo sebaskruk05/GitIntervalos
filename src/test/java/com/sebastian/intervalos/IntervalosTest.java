@@ -51,7 +51,7 @@ public class IntervalosTest {
         System.out.println("ObtenerCategoria");
         int a = 2;
         String expResult = "Intervalo B";
-        String result = Intervalos.ObtenerCategoria(a);
+        String result = Intervalos.ObtenerIntervalo(a);
         assertEquals(expResult, result,"Error con numero 2.");
     }
 }
